@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aguirre & Asociados</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Aguirre & Asociados</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#areas-practica">Áreas de Práctica</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Cumplimos con la ley, cumplimos con usted.</h2>
+            <p>Posicionarnos como su firma legal de confianza, brindarle asesoría personalizada haciéndolo de una manera profesional y eficiente.</p>
+            <a href="#contacto" class="btn">Contáctanos</a>
+        </div>
+    </section>
+
+    <section id="nosotros" class="about">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>Aguirre & Asociados es una firma legal ubicada en Guatemala con más de veinte años de experiencia, dedicada a brindar siempre el mejor consejo legal ajustado a cada caso concreto.</p>
+        </div>
+    </section>
+
+    <section id="areas-practica" class="services">
+        <div class="container">
+            <h2>Áreas de Práctica</h2>
+            <div class="service">
+                <h3>Mercantil</h3>
+                <p>Constitución de Sociedades, patentes, nombramientos, y litigios.</p>
+            </div>
+            <div class="service">
+                <h3>Notariado</h3>
+                <p>Compareventas, Hipotecas, Mandatos, Arrendamientos y cualquier contrato.</p>
+            </div>
+            <div class="service">
+                <h3>Familia</h3>
+                <p>Divorcios en línea, procesos de Familia: alimentos, guarda y custodia.</p>
+            </div>
+            <div class="service">
+                <h3>Penal</h3>
+                <p>Defensa adecuada o persecución de delitos, asesoría especializada.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="process_form.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Aguirre & Asociados. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
